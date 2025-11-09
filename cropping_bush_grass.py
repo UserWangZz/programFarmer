@@ -1,5 +1,8 @@
 # 交替种植干草和木头
 
+from builtins import range
+
+
 def alternate_cropping_bush_and_grass():
 	for i in range(get_world_size()):
 		for j in range(get_world_size()):

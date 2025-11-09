@@ -1,5 +1,8 @@
 # 关于move的工具包
 
+from builtins import range
+
+
 def move_ground(action, isWood=False):
 	# @brief 遍历整个地图
 	# @param action 移动过程中的动作
